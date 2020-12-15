@@ -1,5 +1,5 @@
 {
-  "name": "@kp2rnetwork/web-interface",
+  "name": "@keeperfi/web-interface",
   "description": "web Interface",
   "private": true,
   "devDependencies": {
