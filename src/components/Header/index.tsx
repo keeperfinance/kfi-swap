@@ -216,6 +216,12 @@ export default function Header() {
             </Title>
         </HeaderElement>
         <HeaderNav>
+        <StyledExternalLink id={`stake-nav-link`} href={'https://big.one/en/trade/KFI-ETH'}>
+          KFI IEO Sale
+        </StyledExternalLink>
+        <StyledExternalLink id={`stake-nav-link`} href={'https://keeper.finance'}>
+          Home
+        </StyledExternalLink>
         <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
            Swap
          </StyledNavLink>
@@ -235,7 +241,7 @@ export default function Header() {
          <StyledExternalLink id={`stake-nav-link`} href={'https://app.keeper.finance'}>
            Keeper
          </StyledExternalLink>
-         <StyledExternalLink id={`stake-nav-link`} href={'/'}>
+         <StyledExternalLink id={`stake-nav-link`} href={'https://gov.keeper.finance'}>
            Vote
          </StyledExternalLink>
          <StyledExternalLink id={`stake-nav-link`} href={'/'}>

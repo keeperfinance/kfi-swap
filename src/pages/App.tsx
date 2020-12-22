@@ -21,7 +21,7 @@ import RemoveLiquidity from './RemoveLiquidity'
 import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redirects'
 import Swap from './Swap'
 import { RedirectPathToSwapOnly, RedirectToSwap } from './Swap/redirects'
-import backbg from '../assets/images/bg.jpg'
+//import backbg from '../assets/images/bg.jpg'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -57,12 +57,12 @@ const BodyWrapper = styled.div`
 const Marginer = styled.div`
   margin-top: 5rem;
 `
-const BackImage = styled.img`
-  position: fixed;
-  top: 0%; 
-  width: 100%;
-  height: 100%;
-`
+//const BackImage = styled.img`
+//  position: fixed;
+//  top: 0%;
+//  width: 100%;
+//  height: 100%;
+//`
 
 export default function App() {
   return (
@@ -75,7 +75,6 @@ export default function App() {
             <Header />
           </HeaderWrapper>
           <BodyWrapper>
-             <BackImage src={backbg} alt="bg" />
             <Popups />
             <Web3ReactManager>
               <Switch>
