@@ -241,6 +241,9 @@ export default function Header() {
          <StyledExternalLink id={`stake-nav-link`} href={'https://app.keeper.finance'}>
            Keeper
          </StyledExternalLink>
+         <StyledExternalLink id={`stake-nav-link`} href={'https://stake.keeper.finance'}>
+           Stake
+         </StyledExternalLink>
          <StyledExternalLink id={`stake-nav-link`} href={'https://gov.keeper.finance'}>
            Vote
          </StyledExternalLink>
