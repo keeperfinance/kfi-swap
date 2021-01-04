@@ -216,9 +216,6 @@ export default function Header() {
             </Title>
         </HeaderElement>
         <HeaderNav>
-        <StyledExternalLink id={`stake-nav-link`} href={'https://keeper.finance/ieo-sale'}>
-          KFI IEO Sale
-        </StyledExternalLink>
         <StyledExternalLink id={`stake-nav-link`} href={'https://keeper.finance'}>
           Home
         </StyledExternalLink>
